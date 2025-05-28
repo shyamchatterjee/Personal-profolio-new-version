@@ -8,17 +8,12 @@
    
 }
  .body{
-  padding: 1rem;
     background-color: black;
-    
+    padding: 1rem;
  }
 .container{
      width: 90%;
      margin: auto;
+    
    
-}
-@media (max-width:1000px) {
-    .body{
-        padding: 1rem;
-    }
 }
