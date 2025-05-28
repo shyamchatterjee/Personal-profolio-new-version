@@ -1,0 +1,90 @@
+.header-section{
+    
+    margin: auto;
+      margin-top: 2rem;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transition: 0.5s;
+}
+.header-section:hover{
+ transform: scale(1.07);
+}
+
+.my-pic{
+    border-radius: 50%;
+}
+
+.name{
+    
+    background: linear-gradient(267deg,#da7c25 0.36%,#b923e1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+
+}
+.button-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.button1{
+     background: linear-gradient(267deg,#da7c25 0.36%,#b923e1 102.06%);
+     width: 110px;
+     height: 35px;
+     border-radius: 50px;
+     border: none;
+     color: white;
+     cursor: pointer;
+}
+.button1:hover{
+    border: 2px solid white;
+}
+.button2{
+     background: transparent;
+     width: 110px;
+     height: 35px;
+     border-radius: 50px;
+     border: none;
+     color: white;
+     border: 2px solid white;
+     cursor: pointer;
+}
+.button2:hover{
+    border-color: #b415ff;
+}
+@media (max-width:1000px) {
+       .header-section{
+        padding: 1rem;
+       }
+       .name{
+        font-size: 1.5rem;
+       }
+       
+       .button1{
+          font-size: 0.5rem;
+          width: 100px;
+       }
+       .button2{
+        font-size: 0.5rem;
+          width: 100px;
+       }
+}
+@media (max-width:380px) {
+    .name{
+        font-size: 1.5rem;
+    }
+     .button1{
+          font-size: 0.5rem;
+          width: 100px;
+       }
+       .button2{
+        font-size: 0.5rem;
+          width: 100px;
+       }
+}

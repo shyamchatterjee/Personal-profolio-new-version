@@ -1,0 +1,246 @@
+
+.contect-section{
+      gap: 1rem;
+    width: 100%;
+    
+}
+.contect-about{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.about{
+      margin-top: 20px;
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+}
+.contect-container{
+  margin-top: 2rem;
+  display: flex;
+   justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+ 
+}
+.contect1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.pera{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.email{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.call{
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.facebook{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+.instagram{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+}
+.heading{
+   background: linear-gradient(267deg,#f47c0b 0.36%,#b923e1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+.contect2{
+  
+  width: 300px;
+  
+  
+  padding: 1rem;
+}
+.form{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+}
+.name-input{
+  width: 100%;
+  padding: 7px;
+  
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius:5px;
+}
+.name-input-light{
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  background: #eaeaea;
+  color: black;
+  font-size: 20px;
+  border: none;
+  border-radius:1rem;
+}
+.email-input-light{
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  background: #eaeaea;
+  color: black;
+  font-size: 20px;
+  border: none;
+  border-radius:1rem;
+}
+.massage-input-light{
+   width: 100%;
+  padding: 15px;
+    height: 60px;
+  background: #eaeaea;
+  color: black;
+  font-size: 20px;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+}
+.email-input{
+   width: 100%;
+  padding: 7px;
+ 
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.massage-input{
+   width: 100%;
+  padding: 7px;
+    height: 60px;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.red{
+  font-size: 22px;
+  color: red;
+}
+.green{
+  font-size: 22px;
+  color: green;
+}
+.contect-buttons{
+     border: none;
+     width: 120px;
+     border-radius: 50px;
+      height: 30px;
+    background: linear-gradient(267deg,#da7c25 0.36%,#b923e1 102.06%);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+@media (max-width:1000px) {
+   .contect-section{
+    width: 95%;
+    margin: auto;
+   
+   }
+   .contect2{
+  
+  
+  
+ width: 90%;
+ margin: auto;
+ 
+}
+      .contect-container{
+        width: 90%;
+      margin: auto;
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+         gap: 1rem;
+         border-bottom: 2px solid white;
+      }
+
+      
+      .pera{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.div{
+  display: flex;
+  flex-direction: column;
+}
+}
+.footer{
+     display: flex;
+     flex-direction: column;
+      align-items: center;
+      color: white;
+      gap: 1rem;
+     
+
+}
+.canvas{
+  display: flex;
+      flex-direction: column;
+    align-items: center;
+}
+.div{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.github-link{
+  display: flex;
+  align-items: center;
+}
+.github-link-light{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.linkedin-github{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width:380px) {
+    .name-pera{
+          display: flex;
+          align-items: center;
+    }
+    .footer{
+        width: 90%;
+        margin: auto;
+    }
+}
