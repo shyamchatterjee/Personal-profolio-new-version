@@ -81,14 +81,14 @@
        
       
 }
-@media (max-width:350px) {
+@media (max-width:375px) {
       .name{
-        font-size: 22px;
+        font-size: 30px;
     }
 }
 @media (max-width:390px) {
     .name{
-        font-size: 22px;
+        font-size: 20px;
     }
      .button1{
           font-size: 0.5rem;
