@@ -1,14 +1,15 @@
 
 .navbar-section{
-   
+  
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
     color: white;
 }
-.navbar{
 
+.navbar{
+      
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -68,10 +69,11 @@
     }
     
       .navbar-section{
-        /* width: 90%; */
-         /* margin: auto;  */
-           /* padding: 1rem; */
-           width: 100%;
+          
+         
+         
+        width: 90%;
+        margin: auto;
            display: flex;
            flex-direction: row;
             justify-content: space-between;
@@ -123,7 +125,7 @@
         height: 100%;
         z-index: 2;
          transition: right 0.5s; 
-        right: -200px;
+        right: -170px;
       }
       .navbar-change-light{
         display: block;
@@ -140,6 +142,7 @@
         z-index: 2;
          transition: right 0.5s; 
         right: -200px;
+        
       }
       .bar-mode{
         display: flex;
@@ -150,7 +153,7 @@
           display: none;
       }
       .bar{
-        font-size: 22px;
+        font-size: 25px;
       }
      .close-icon{
       

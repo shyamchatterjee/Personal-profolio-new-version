@@ -93,6 +93,17 @@
     border-bottom: 1px solid white;
     padding: 10px;
 }
+.skill-light{
+     color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 240px;
+    height: 100px;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
 .skill:hover{
     transform: scale(1.10);
     transition: 0.5s;
@@ -118,6 +129,16 @@
 }
 .tool:hover{
     background-color: white;
+}
+.tool-light{
+      border: 1px solid black;
+    border-radius: 5px;
+   width: 20px;
+   height: 20px;
+   padding: 5px;
+}
+.tool-light:hover{
+    background-color: black;
 }
 @media (max-width:1000px) {
       .about-pera{

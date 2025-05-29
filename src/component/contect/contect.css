@@ -1,6 +1,6 @@
 
 .contect-section{
-      gap: 1rem;
+      gap: 2rem;
     width: 100%;
     
 }
@@ -164,29 +164,18 @@
     transition: 0.5s;
 }
 @media (max-width:1000px) {
-   .contect-section{
-    width: 95%;
-    margin: auto;
-   
-   }
-   .contect2{
-  
-  
-  
- width: 90%;
- margin: auto;
- 
-}
+    .contect2{
+       width: 90%;
+       margin: auto;
+    }
       .contect-container{
-        width: 90%;
-      margin: auto;
+        
         display: flex;
         flex-direction: column;
          align-items: center;
-         gap: 1rem;
-         border-bottom: 2px solid white;
+         gap: 2rem;
+        
       }
-
       
       .pera{
   display: flex;
@@ -233,14 +222,4 @@
   display: flex;
   align-items: center;
   gap: 10px;
-}
-@media (max-width:380px) {
-    .name-pera{
-          display: flex;
-          align-items: center;
-    }
-    .footer{
-        width: 90%;
-        margin: auto;
-    }
 }

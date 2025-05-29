@@ -6,9 +6,22 @@ import About from './component/about/about'
 import Service from './component/service/service'
 import Work from './component/work/work'
 import Contect from './component/contect/contect'
+import { useContext } from 'react'
+import { Context } from './context/context'
 
 function App() {
-     return <> <div className='body'>
+     let {mode} = useContext(Context)
+     return <>
+     {mode=="dark"? <div className='body'>
+            <div className='container'>
+                <Navbar/> 
+          <Home/>
+           <About/> 
+           <Service/> 
+         <Work/>
+         <Contect/> 
+            </div>
+    </div>: <div className="body-light">
             <div className='container'>
                 <Navbar/> 
           <Home/>
@@ -21,6 +34,9 @@ function App() {
           
            
 
+          
+           
+} 
       
           
      </>
