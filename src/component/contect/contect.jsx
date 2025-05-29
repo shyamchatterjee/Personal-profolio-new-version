@@ -110,7 +110,7 @@ let Contect = ()=>{
               name="email"
               id=""
               value={email}
-              placeholder="Enter your name"
+              placeholder="Enter your email"
               onChange={(e) => {
                 setEmail(e.target.value);
               }}
