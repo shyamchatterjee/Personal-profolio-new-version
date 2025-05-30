@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import "./home.css";
 import { Context } from "../../context/context";
+ import AnchorLink from 'react-anchor-link-smooth-scroll'
 let Home = () => {
   let {mode} = useContext(Context)
   return <>{mode=="dark"?<div id="home" className="header-section">
@@ -67,8 +68,8 @@ let Home = () => {
         </p>
         
         <div className="button-container">
-          <button className="button1">Contect with me</button>
-
+         <AnchorLink href="#contect"><button className="button1">Contect with me</button>
+</AnchorLink> 
           <a
             href="https://drive.google.com/file/d/1AjytQDHB8AJGmkyfw7mPMB33r5WMEGsD/view?usp=drivesdk"
             target="_blank"
