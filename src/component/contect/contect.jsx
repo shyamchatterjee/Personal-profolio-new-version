@@ -288,7 +288,7 @@ let Contect = ()=>{
               className="massage-input-light"
             ></textarea>
             <input type="submit" value="Submit" className="contect-buttons" />
-            <p style={{ color: "green", fontSize: "22px" }}>{massage}</p>
+             <p className="green">{massage}</p>
             
           </form>
         </div>
