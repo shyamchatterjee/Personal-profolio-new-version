@@ -8,7 +8,7 @@ let Contect = ()=>{
     return <> {mode=="dark"?<div className="contect-section" id="contect">
       <div className="contect-about">
         <p style={{ color: "white", fontSize: "30px" }}> Contect With me</p>
-        <div className="about">
+        <div className="about" style={{color:"white"}}>
           <p>I'm always open to discussing new</p>
           <p>
             projects, creative ideas, or oppertunities to be part of your
