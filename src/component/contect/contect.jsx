@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Context } from "../../context/context";
 import './contect.css'
 let Contect = ()=>{
-     let { onSubmit, massage, msg, setmsg, email, setEmail, name, setName ,mode} =
+     let { onSubmit, massage, msg, setmsg, email, setEmail, name, setName ,mode,send} =
         useContext(Context);
     
     return <> {mode=="dark"?<div className="contect-section" id="contect">
@@ -128,7 +128,7 @@ let Contect = ()=>{
               className="massage-input"
             ></textarea>
             <input type="submit" value="Submit" className="contect-buttons" />
-           
+              <p style={{color:"green",textAlign:"center"}}>{send}</p>
             <p className="green">{massage}</p>
           </form>
         </div>
@@ -288,6 +288,7 @@ let Contect = ()=>{
               className="massage-input-light"
             ></textarea>
             <input type="submit" value="Submit" className="contect-buttons" />
+            <p style={{color:"green",textAlign:"center"}}>{send}</p>
              <p className="green">{massage}</p>
             
           </form>
