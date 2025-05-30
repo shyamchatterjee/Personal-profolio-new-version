@@ -31,7 +31,7 @@ let Home = () => {
         </p>
         
         <div className="button-container">
-          <button className="button1">Contect with me</button>
+        <AnchorLink  href="#contect"> <button className="button1">Contect with me</button></AnchorLink> 
 
           <a
             href="https://drive.google.com/file/d/1AjytQDHB8AJGmkyfw7mPMB33r5WMEGsD/view?usp=drivesdk"
