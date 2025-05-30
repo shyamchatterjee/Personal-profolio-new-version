@@ -62,12 +62,16 @@
 .navbar-change-light{
   display: none;
 }
-
+.canvas-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 @media (max-width:1000px) {
     .mobile-screen-icon{
         font-size: 1.5rem;
     }
-    
+   
       .navbar-section{
           
          
