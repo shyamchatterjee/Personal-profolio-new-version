@@ -68,13 +68,14 @@
   align-items: center;
 }
 @media (max-width:1000px) {
+ 
     .mobile-screen-icon{
         font-size: 1.5rem;
     }
    
       .navbar-section{
           
-         
+        
          
         width: 90%;
         margin: auto;
