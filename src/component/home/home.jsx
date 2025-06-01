@@ -1,10 +1,35 @@
-import { useContext } from "react";
+import { useContext, useRef } from "react";
 import "./home.css";
 import { Context } from "../../context/context";
  import AnchorLink from 'react-anchor-link-smooth-scroll'
+ import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 let Home = () => {
+     let ref = useRef()
+     useGSAP(()=>{
+         gsap.from("img",{
+          y:100,
+           opacity:0,
+          duration:4,
+          delay:0.5
+         })
+     },{scope:".header-section"})
+    useGSAP(()=>{
+      gsap.from("p",{
+          opacity:0,
+          duration:4,
+          delay:0.5
+      })
+    },{scope:".header-section"})
+ useGSAP(()=>{
+  gsap.from("button",{
+     opacity:0,
+          duration:2,
+          delay:0.5
+  })
+ },{scope:".header-section"})
   let {mode} = useContext(Context)
-  return <>{mode=="dark"?<div id="home" className="header-section">
+  return <>{mode=="dark"?<div id="home" className="header-section" ref={ref}>
       <img
         src="https://media.licdn.com/dms/image/v2/D4D03AQE-4chE9AUJSg/profile-displayphoto-shrink_800_800/B4DZZCmfrwGwAc-/0/1744874113781?e=1753315200&v=beta&t=nmE_bnRCgltXMBO7VP06Ij0fEC0D-iQzXDM8fXsmSjI"
         height={150}

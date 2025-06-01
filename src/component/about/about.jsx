@@ -2,8 +2,18 @@ import { useContext } from "react";
 import "./about.css";
 import { GiSkills } from "react-icons/gi";
 import { Context } from "../../context/context";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 let About = () => {
   let {mode} = useContext(Context)
+  useGSAP(()=>{
+     gsap.from("p",{
+           opacity:0,
+           y:100,
+          duration:4,
+          delay:0.5
+     })
+  },{scope:".about-section"})
   return <> {mode=="dark"?<div className="about-section" id="about">
       <p className="about-me" style={{ color: "white" }}>
         About me
