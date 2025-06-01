@@ -10,21 +10,23 @@ let Home = () => {
          gsap.from("img",{
           y:100,
            opacity:0,
-          duration:4,
+          duration:3,
           delay:0.5
          })
      },{scope:".header-section"})
     useGSAP(()=>{
       gsap.from("p",{
+           y:100,
           opacity:0,
-          duration:4,
+          duration:3,
           delay:0.5
       })
     },{scope:".header-section"})
  useGSAP(()=>{
   gsap.from("button",{
+    y:100,
      opacity:0,
-          duration:2,
+          duration:3,
           delay:0.5
   })
  },{scope:".header-section"})
