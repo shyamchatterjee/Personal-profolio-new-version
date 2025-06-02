@@ -10,7 +10,7 @@ let About = () => {
      gsap.from("  p,div",{
            opacity:0,
            y:80,
-          duration:3,
+          duration:2,
           delay:0.5,
           scrollTrigger:".about-section"
      })
