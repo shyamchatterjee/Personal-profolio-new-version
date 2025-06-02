@@ -8,15 +8,15 @@ let Home = () => {
      let ref = useRef()
      useGSAP(()=>{
          gsap.from("img",{
-          y:100,
+          y:-100,
            opacity:0,
-          duration:3,
+          duration:2,
           delay:0.5
          })
      },{scope:".header-section"})
     useGSAP(()=>{
       gsap.from("p",{
-           y:100,
+           y:-40,
           opacity:0,
           duration:3,
           delay:0.5
@@ -24,10 +24,11 @@ let Home = () => {
     },{scope:".header-section"})
  useGSAP(()=>{
   gsap.from("button",{
-    y:100,
+    y:-20,
      opacity:0,
-          duration:3,
-          delay:0.5
+          duration:4,
+          delay:0.5,
+          scrollTrigger:".header-section"
   })
  },{scope:".header-section"})
   let {mode} = useContext(Context)

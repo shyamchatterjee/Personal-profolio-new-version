@@ -7,8 +7,26 @@ import  project5 from "../../assets/project5.png";
 import { FaArrowRight } from "react-icons/fa";
 import { useContext } from 'react';
 import { Context } from '../../context/context';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger)
+
 let Work = ()=>{
   let {mode} = useContext(Context)
+  useGSAP(()=>{
+          gsap.from("div",{
+              y : 50,
+              opacity : 0,
+              duration:3,
+              delay :0.5,
+              scrollTrigger:{
+                trigger:".project-section"
+              }
+          })
+        },{scope:".mywork-container"})
+
+  
     return <> {mode=="dark"?<div className="mywork-container" id='work'>
             <div className="work-about" style={{color:"white"}}>
                   <p style={{fontSize:"30px",color:"white"}}>My Work</p>

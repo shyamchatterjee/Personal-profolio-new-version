@@ -3,8 +3,24 @@ import { FaArrowRight } from "react-icons/fa";
 import './service.css'
 import { useContext } from "react";
 import { Context } from "../../context/context";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger)
 let Service = ()=>{
     let {mode} = useContext(Context)
+    useGSAP(()=>{
+        gsap.from("div",{
+                  y:100,
+          opacity:0,
+          duration:2,
+          delay:0.5,
+          scrollTrigger:{
+              trigger :".service"
+          }
+
+        })
+    },{scope:".service-section"})
     return <> {mode=="dark"? <div className="service-section" style={{color:"white"}} id='service'>
         <div className='service-about'>
                         <p style={{fontSize:"30px",color:"white"}}>My Services</p>

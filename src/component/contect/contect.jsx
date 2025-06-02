@@ -1,10 +1,34 @@
 import { useContext } from "react";
 import { Context } from "../../context/context";
 import './contect.css'
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger)
 let Contect = ()=>{
      let { onSubmit, massage, msg, setmsg, email, setEmail, name, setName ,mode,send} =
         useContext(Context);
-    
+        useGSAP(()=>{
+          gsap.from("div",{
+              y : 50,
+              opacity : 0,
+              duration:3,
+              delay : 0.5,
+              scrollTrigger:{
+                trigger:"div"
+              }
+          })
+        },{scope:".contect-section"})
+     useGSAP(()=>{
+        gsap.from(".contect2",{
+              x : -1000,
+              duration : 2,
+              delay:0.5,
+              scrollTrigger:{
+                trigger:".contect2"
+              }
+        })
+     },{scope:".contect-container"})
     return <> {mode=="dark"?<div className="contect-section" id="contect">
       <div className="contect-about">
         <p style={{ color: "white", fontSize: "30px" }}> Contect With me</p>
