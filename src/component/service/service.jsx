@@ -50,7 +50,7 @@ let Service = ()=>{
 
        </div>: <div className="service-section" style={{color:"black"}} id='service'>
         <div className='service-about'>
-                        <p style={{fontSize:"30px",color:"black"}}>My Services</p>
+                        <p style={{fontSize:"29px",color:"black"}}>My Services</p>
                         <div className='services' style={{color:"black",marginTop:"1rem"}}>
                        <p>I m a front-end developer. I don't have any technical degree.</p>
                        <p>I learned web development through youtube and other one resources.</p>
