@@ -8,16 +8,16 @@ import './navbar.css'
 import { Context } from '../../context/context';
  let Navbar = ()=>{
 let [boolen,setBoolen] = useState(true)
-  let [bool,setBool] = useState(true)
+let [page,setpage] = useState("home")
+let [bool,setBool] = useState(true)
   let {mode,setMode} = useContext(Context)
-       let clickbar = ()=>{
+   let clickbar = ()=>{
                setBoolen(false)
        }
-       let [page,setpage] = useState("home")
-   return <> {mode=="dark"? <div className="navbar-section">
-         <div className='canvas-icon'>
-         <img src="https://www.pixelresort.com/wp-content/uploads/2022/12/procreate-icon.png" height={22} width={22} alt="" />
-                  <p>ProjectHub.</p>
+            return <>{mode=="dark"?<div className='navbar-section'>
+                   <div className='canvas-icon'>
+                    <img src="https://cdn2.iconfinder.com/data/icons/letters-and-numbers-1/32/lowercase_letter_p_blue-1024.png" width={30} height={30} alt="" />
+                  <p>rojectHub.</p>
                   </div>
                   <div className="navbar">
                      
@@ -53,8 +53,8 @@ let [boolen,setBoolen] = useState(true)
 
        </div>: <div className="navbar-section">
          <div className='canvas-icon' style={{color:"black"}}>
-         <img src="https://www.pixelresort.com/wp-content/uploads/2022/12/procreate-icon.png" height={22} width={22} alt="" />
-                  <p style={{color:"black",fontWeight:"bold"}} >ProjectHub.</p>
+         <img src="https://cdn2.iconfinder.com/data/icons/letters-and-numbers-1/32/lowercase_letter_p_blue-1024.png" width={30} height={30} alt="" />
+                  <p style={{color:"black",fontWeight:"bold"}} >rojectHub.</p>
                   </div>
                   <div className="navbar" style={{color:"black",fontSize:"20px"}}>
                      
