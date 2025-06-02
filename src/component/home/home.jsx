@@ -26,7 +26,7 @@ let Home = () => {
   gsap.from("button",{
     y:-20,
      opacity:0,
-          duration:4,
+          duration:3,
           delay:0.5,
           scrollTrigger:".header-section"
   })
