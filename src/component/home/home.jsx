@@ -23,7 +23,7 @@ let Home = () => {
       })
     },{scope:".header-section"})
  useGSAP(()=>{
-  gsap.from("button",{
+  gsap.from(".button-container",{
     y:-20,
      opacity:0,
           duration:3,
