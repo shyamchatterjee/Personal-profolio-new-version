@@ -91,8 +91,7 @@
         font-size: 30px;
     }
      .button1{
-        display: flex;
-           align-items: center;
+       font-size: 1rem;
        }
 }
 @media (max-width:390px) {
@@ -107,6 +106,6 @@
        
        .button2{
         font-size: 0.5rem;
-          width: 100px;
+         
        }
 }
