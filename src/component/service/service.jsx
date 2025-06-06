@@ -14,7 +14,7 @@ let Service = ()=>{
                   y:100,
           opacity:0,
           duration:3,
-          delay:1,
+          delay:0.5,
           scrollTrigger:{
               trigger :".service"
           }

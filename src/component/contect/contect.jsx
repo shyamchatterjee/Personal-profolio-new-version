@@ -8,17 +8,17 @@ gsap.registerPlugin(ScrollTrigger)
 let Contect = ()=>{
      let { onSubmit, massage, msg, setmsg, email, setEmail, name, setName ,mode,send} =
         useContext(Context);
-        useGSAP(()=>{
-          gsap.from("div",{
-              y : 50,
-              opacity : 0,
-              duration:3,
-              delay : 0.5,
-              scrollTrigger:{
-                trigger:"div"
-              }
-          })
-        },{scope:".contect-section"})
+         useGSAP(()=>{
+         gsap.from("div",{
+             y : -20,
+             opacity : 0,
+             duration:3,
+               delay : 0.5,
+               scrollTrigger:{
+               trigger:"div"
+             }
+           })
+       },{scope:".contect-section"})
      useGSAP(()=>{
         gsap.from(".contect2",{
               x : -1000,
