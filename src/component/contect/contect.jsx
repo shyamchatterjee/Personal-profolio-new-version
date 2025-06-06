@@ -48,8 +48,7 @@ let Contect = ()=>{
       <div className="contect-container">
         <div className="contect1">
           <div className="canvas" style={{ fontSize: "25px", color: "white" }}>
-           <img src="https://cdn2.iconfinder.com/data/icons/letters-and-numbers-1/32/lowercase_letter_p_blue-1024.png" width={30} height={30} alt="" />
-            <p>rojectHub.</p>
+            <p className='icon'>S.</p>
           </div>
           <p className="heading">Let's talk</p>
           <div className="pera">
@@ -203,8 +202,7 @@ let Contect = ()=>{
         <div className="contect1">
           <div className="canvas" style={{ fontSize: "20px", color: "black"
            }}>
-           <img src="https://cdn2.iconfinder.com/data/icons/letters-and-numbers-1/32/lowercase_letter_p_blue-1024.png" width={30} height={30} alt="" />
-            <p>rojectHub.</p>
+            <p className='icon'>S.</p>
           </div>
           <p className="heading" style={{color:"white"}}>Let's talk</p>
           <div className="pera" style={{color:"black"}}>

@@ -65,7 +65,14 @@
 .canvas-icon{
   display: flex;
   flex-direction: row;
-  align-items: center;
+}
+.icon{
+   background: linear-gradient(267deg,#bd0ded 0.36%, rgb(211, 17, 49) 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    align-items: center;
 }
 @media (max-width:1000px) {
  
