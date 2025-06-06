@@ -122,6 +122,7 @@ let Contect = ()=>{
                 setName(e.target.value);
               }}
               className="name-input"
+              required
             />
             <input
               type="email"
@@ -133,6 +134,7 @@ let Contect = ()=>{
                 setEmail(e.target.value);
               }}
               className="email-input"
+              required
             />
 
             <textarea
@@ -144,6 +146,7 @@ let Contect = ()=>{
               }}
               placeholder="Enter your massage"
               className="massage-input"
+              required
             ></textarea>
             <input type="submit" value="Submit" className="contect-buttons" />
               <p style={{color:"green",textAlign:"center"}}>{send}</p>
@@ -276,6 +279,7 @@ let Contect = ()=>{
                 setName(e.target.value);
               }}
               className="name-input-light"
+              required
             />
             <input
               type="email"
@@ -287,6 +291,7 @@ let Contect = ()=>{
                 setEmail(e.target.value);
               }}
               className="email-input-light"
+              required
             />
 
             <textarea
@@ -298,6 +303,7 @@ let Contect = ()=>{
               }}
               placeholder="Enter your massage"
               className="massage-input-light"
+              required
             ></textarea>
             <input type="submit" value="Submit" className="contect-buttons" />
             <p style={{color:"green",textAlign:"center"}}>{send}</p>
