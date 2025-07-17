@@ -1,11 +1,42 @@
 
 .navbar-section{
-  
+    margin-top: 10px;
+    width: 100%;
+    background-color:#282930;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
     color: white;
+    border-radius: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    
+
+   
+}
+.navbar-section-light{
+    margin-top: 10px;
+    width: 100%;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    border-radius: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    
+
+   
 }
 
 .navbar{
@@ -74,6 +105,7 @@
     font-size: 35px;
     align-items: center;
 }
+
 @media (max-width:1000px) {
  
     .mobile-screen-icon{
@@ -81,17 +113,43 @@
     }
    
       .navbar-section{
-          
-        
+         position: fixed;
+    top: 2;
+    z-index: 2;
+    left: 0;
+    right: 0;
+     border-radius:15px ;
          
         width: 90%;
         margin: auto;
-        padding: 1rem;
+        padding:10px;
            display: flex;
            flex-direction: row;
             justify-content: space-between;
             align-items: center;
+           
       }
+      .navbar-section-light{
+        padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    border-radius: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    
+
+   
+}
       .contect-button{
         display: none;
       }
@@ -104,7 +162,8 @@
         align-items: center;
         top: 0;
         gap: 30px;
-        background-color: #1f0016;
+       
+        
         width: 380px;
         height: 100%;
         z-index: 2;
@@ -117,7 +176,7 @@
         align-items: center;
         top: 0;
         gap: 30px;
-        background-color:#eaeaea ;
+        
         width: 380px;
         height: 100%;
         z-index: 2;
@@ -133,7 +192,8 @@
         align-items: start;
         top: 0;
         gap: 30px;
-        background-color:#1f0016;
+        background:transparent;
+        backdrop-filter: blur(15px);
         width: 400px;
         height: 100%;
         z-index: 2;
@@ -149,7 +209,8 @@
         align-items: start;
         top: 0;
         gap: 30px;
-        background-color:#eaeaea;
+         background:transparent;
+        backdrop-filter: blur(15px);
         width: 400px;
         height: 100%;
         z-index: 2;
@@ -170,7 +231,7 @@
       }
      .close-icon{
       
-      margin-left: 180px;
+      margin-left: 195px;
            font-size: 22px;
      }
     }

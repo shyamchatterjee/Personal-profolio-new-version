@@ -16,7 +16,7 @@ let [bool,setBool] = useState(true)
        }
             return <>{mode=="dark"?<div className='navbar-section'>
                    <div className='canvas-icon'>
-                   <p className='icon'>S.</p>
+                   <p className='icon'>SC.</p>
                  
                   </div>
                   <div className="navbar">
@@ -51,7 +51,7 @@ let [bool,setBool] = useState(true)
 
 
 
-       </div>: <div className="navbar-section">
+       </div>: <div className="navbar-section-light">
          <div className='canvas-icon'>
                     <p className='icon'>S.</p>
                   </div>

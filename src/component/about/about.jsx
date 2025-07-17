@@ -71,10 +71,10 @@ let About = () => {
                             <p style={{color:"white"}}>Tools I Used</p>
                              <div className='tools-section'>
                                     <div className='tool'>
-                                      <img src="https://static-00.iconduck.com/assets.00/visual-studio-code-icon-1024x1018-qwdvzpo8.png" width={20} height={20}  alt="" />
+                                      <img src="https://w7.pngwing.com/pngs/284/106/png-transparent-visual-studio-code-logo.png" width={20} height={20}  alt="" />
                                     </div>
                                     <div className='tool'>
-                                      <img src="https://static-00.iconduck.com/assets.00/github-icon-2048x2048-dpporae2.png" width={20} height={20}  alt="" />
+                                      <img src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png" width={20} height={20}  alt="" />
                                     </div>
                                     <div className='tool'>
                                       <img src="https://imagepng.org/wp-content/uploads/2019/08/google-chrome-icon-1.png" width={20} height={20}  alt="" />

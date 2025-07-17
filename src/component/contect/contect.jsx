@@ -48,7 +48,7 @@ let Contect = ()=>{
       <div className="contect-container">
         <div className="contect1">
           <div className="canvas" style={{ fontSize: "25px", color: "white" }}>
-            <p className='icon'>S.</p>
+            <p className='icon'>SC.</p>
           </div>
           <p className="heading">Let's talk</p>
           <div className="pera">
