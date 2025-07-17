@@ -2,42 +2,20 @@
 .navbar-section{
     margin-top: 10px;
     width: 100%;
-    background-color:#282930;
+    background-color: #282930 ;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
     color: white;
     border-radius: 1rem;
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    left: 0;
-    right: 0;
-    
-
-   
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 9999;
 }
-.navbar-section-light{
-    margin-top: 10px;
-    width: 100%;
-    background: transparent;
-    backdrop-filter: blur(8px);
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-    border-radius: 1rem;
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    left: 0;
-    right: 0;
-    
 
-   
-}
 
 .navbar{
       
@@ -113,43 +91,26 @@
     }
    
       .navbar-section{
-         position: fixed;
-    top: 2;
-    z-index: 2;
-    left: 0;
-    right: 0;
+        
      border-radius:15px ;
          
-        width: 90%;
-        margin: auto;
-        padding:10px;
+        width: 80%;
+        padding: 10px;
+        
            display: flex;
            flex-direction: row;
             justify-content: space-between;
             align-items: center;
-           
-      }
-      .navbar-section-light{
-        padding: 10px;
-    margin-top: 10px;
-    width: 100%;
-    background: transparent;
-    backdrop-filter: blur(8px);
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-    border-radius: 1rem;
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    left: 0;
-    right: 0;
-    
+            position: fixed;
 
-   
-}
+      top: 2;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+       margin-left: 25px;
+      }
+       
+      
       .contect-button{
         display: none;
       }
@@ -157,32 +118,21 @@
         display: none;
       }
       .navbar-mobile{
-        position: fixed;
+       position: fixed;
         flex-direction: column;
         align-items: center;
         top: 0;
         gap: 30px;
-       
+        background-color: #1f0016;
+       display: block;
         
-        width: 380px;
+        width: 180px;
         height: 100%;
         z-index: 2;
          transition: right 0.5s; 
         right: -380px;
       }
-      .navbar-mobile-light{
-        position: fixed;
-        flex-direction: column;
-        align-items: center;
-        top: 0;
-        gap: 30px;
-        
-        width: 380px;
-        height: 100%;
-        z-index: 2;
-         transition: right 0.5s; 
-        right: -380px;
-      }
+      
       .navbar-change{
         display: block;
          position: fixed;
@@ -192,7 +142,7 @@
         align-items: start;
         top: 0;
         gap: 30px;
-        background:transparent;
+       background:transparent;
         backdrop-filter: blur(15px);
         width: 400px;
         height: 100%;
@@ -200,23 +150,7 @@
          transition: right 0.5s; 
         right: -170px;
       }
-      .navbar-change-light{
-        display: block;
-        position: fixed;
-         display: flex;
-         padding: 1rem;
-        flex-direction: column;
-        align-items: start;
-        top: 0;
-        gap: 30px;
-         background-color: #eaeaea;
-        width: 400px;
-        height: 100%;
-        z-index: 2;
-         transition: right 0.5s; 
-        right: -200px;
-        
-      }
+       
       .bar-mode{
         display: flex;
           gap: 20px;
