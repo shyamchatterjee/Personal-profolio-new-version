@@ -209,6 +209,7 @@
 .github-link{
   display: flex;
   align-items: center;
+  gap:5px;
 }
 .github-link-light{
   display: flex;
