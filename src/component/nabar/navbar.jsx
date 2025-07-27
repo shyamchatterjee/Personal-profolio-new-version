@@ -16,7 +16,7 @@ let Navbar = () => {
   };
   return (
     <>
-      {mode == "dark" ? ( 
+      {mode == "dark" ? (
         <div className="navbar-section">
           <div className="canvas-icon">
             <p className="icon">SC.</p>
@@ -191,7 +191,20 @@ let Navbar = () => {
             <FaBars className="bar" onClick={clickbar} />
           </div>
         </div>
-      ) : <div style={{color:"black",border:"1px solid black",backgroundColor:"#eaeaea",position:"fixed",top:"0",left:"0",right:"0",zIndex:"2"}} className="navbar-section">
+      ) : (
+        <div
+          style={{
+            color: "black",
+            border: "none",
+            backgroundColor: "#eaeaea",
+            position: "fixed",
+            top: "0",
+            left: "0",
+            right: "0",
+            zIndex: "2",
+          }}
+          className="navbar-section"
+        >
           <div className="canvas-icon">
             <p className="icon">SC.</p>
           </div>
@@ -254,16 +267,22 @@ let Navbar = () => {
               </p>
             </AnchorLink>
           </div>
-          <div style={{backgroundColor:"#eaeaea",background:"transparent" ,backdropFilter:"blur(15px)"}} className={boolen==true?"navbar-mobile":"navbar-change"}>
+          <div
+            style={{
+              backgroundColor: "#eaeaea",
+              background: "transparent",
+              backdropFilter: "blur(15px)",
+            }}
+            className={boolen == true ? "navbar-mobile" : "navbar-change"}
+          >
             <IoMdClose
-            style={{color:"black"}}
+              style={{ color: "black" }}
               className="close-icon"
               onClick={() => {
                 setBoolen(true);
               }}
             />
             <AnchorLink href="#home">
-              
               <p
                 onClick={() => {
                   setpage("home");
@@ -366,7 +385,7 @@ let Navbar = () => {
             <FaBars className="bar" onClick={clickbar} />
           </div>
         </div>
-       }
+      )}
     </>
   );
 };
