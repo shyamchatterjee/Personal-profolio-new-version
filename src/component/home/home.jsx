@@ -48,8 +48,8 @@ let Home = () => {
         <div id="home" className="header-section" ref={ref}>
           <img
             src={myimage}
-            height={150}
-            width={150}
+            height={180}
+            width={180}
             className="my-pic"
             alt=""
           />
@@ -89,8 +89,8 @@ let Home = () => {
         <div id="home" className="header-section">
           <img
             src={myimage}
-            height={150}
-            width={150}
+            height={180}
+            width={180}
             className="my-pic-lights"
             alt=""
           />
