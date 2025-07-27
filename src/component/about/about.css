@@ -1,187 +1,184 @@
-.about-section{
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    flex-direction: column;
+.about-section {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
 }
-.picture{
-    height:200px;
-    width: 200px;
+.picture {
+  height: 250px;
+  width: 200px;
 }
-.about-me{
-    font-size: 30px;
+.about-me {
+  font-size: 30px;
 }
-.about-pera{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 2rem;
+.about-pera {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
 }
-.pera{
-    display: flex;
-    flex-direction: column;
-      align-items: center;
-      color: white;
+.pera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
-.pera-about{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.pera-about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-.programing-section{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-       align-items: center;
-       gap: 1rem;
+.programing-section {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
-.programing{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    color: white;
-    font-size: 20px;
+.programing {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+  font-size: 20px;
 }
 
-.div-container{
+.div-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.div1 {
+  width: 250px;
+  height: 5px;
+  background: linear-gradient(267deg, #f47c0b 0.36%, #b923e1 102.06%);
+  border-radius: 50px;
+}
+.div2 {
+  width: 300px;
+  height: 5px;
+  background: linear-gradient(267deg, #f47c0b 0.36%, #b923e1 102.06%);
+  border-radius: 50px;
+}
+.div3 {
+  width: 400px;
+  height: 5px;
+  background: linear-gradient(267deg, #f47c0b 0.36%, #b923e1 102.06%);
+  border-radius: 50px;
+}
+.div4 {
+  width: 500px;
+  height: 5px;
+  background: linear-gradient(267deg, #f47c0b 0.36%, #b923e1 102.06%);
+  border-radius: 50px;
+}
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.skill {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 240px;
+  height: 100px;
+  border: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+.skill-light {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 240px;
+  height: 100px;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+.skill:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.tools-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.tools-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.tool {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+.tool:hover {
+  background-color: white;
+}
+.tool-light {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+.tool-light:hover {
+  background-color: black;
+}
+@media (max-width: 1000px) {
+  .about-pera {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    gap: 1.5rem;
-}
-.div1{
-    width: 250px;
-    height: 5px;
-    background: linear-gradient(267deg,#f47c0b 0.36%,#b923e1 102.06%);;
-    border-radius: 50px;
-}
-.div2{
-     width: 300px;
-    height: 5px;
-    background: linear-gradient(267deg,#f47c0b 0.36%,#b923e1 102.06%);;
-    border-radius: 50px;
-}
-.div3{
-     width: 400px;
-    height: 5px;
-    background: linear-gradient(267deg,#f47c0b 0.36%,#b923e1 102.06%);;
-    border-radius: 50px;
-}
-.div4{
-    width: 500px;
-    height: 5px;
-    background: linear-gradient(267deg,#f47c0b 0.36%,#b923e1 102.06%);;
-    border-radius: 50px;
-}
-.skill-container{
+    gap: 1rem;
+    justify-content: center;
+  }
+  .programing {
+    font-size: 15px;
+  }
+  .div-container {
+    display: none;
+  }
+  .programing {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-}
-.skill{
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 240px;
-    height: 100px;
-    border: 1px solid white;
-    border-bottom: 1px solid white;
-    padding: 10px;
-}
-.skill-light{
-     color: black;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 240px;
-    height: 100px;
-    border: 1px solid black;
-    border-bottom: 2px solid black;
-    padding: 10px;
-}
-.skill:hover{
-    transform: scale(1.10);
-    transition: 0.5s;
-}
-.tools-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1rem;
-}
-.tools-section{
-    display: flex;
-    flex-direction: row;
+    gap: 5px;
     align-items: center;
-    gap: 10px;
-}
-.tool{
-     border: 1px solid white;
-    border-radius: 5px;
-   width: 20px;
-   height: 20px;
-   padding: 5px;
-}
-.tool:hover{
-    background-color: white;
-}
-.tool-light{
-      border: 1px solid black;
-    border-radius: 5px;
-   width: 20px;
-   height: 20px;
-   padding: 5px;
-}
-.tool-light:hover{
-    background-color: black;
-}
-@media (max-width:1000px) {
-      .about-pera{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 1rem;
-        justify-content: center;
-      }
-      .programing{
-        font-size: 15px;
-      
-      }
-      .div-container{
-        display: none;
-      }
-     .programing{
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-        align-items: center;
-     }
-   .programing-section{
+  }
+  .programing-section {
     display: flex;
     justify-content: center;
     align-items: center;
-   }
-   .skill-container{
+  }
+  .skill-container {
     margin-top: 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      align-items: center;
-   }
-   .skill{
-      width: 210px;
-      padding: 1rem;
-       font-size: 15px;
-   }
-   .tools-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .skill {
+    width: 210px;
+    padding: 1rem;
+    font-size: 15px;
+  }
+  .tools-container {
     display: flex;
     justify-content: center;
-     
-   }
-   
+  }
 }

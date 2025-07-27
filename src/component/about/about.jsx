@@ -3,6 +3,8 @@ import "./about.css";
 import { GiSkills } from "react-icons/gi";
 import { Context } from "../../context/context";
 import { useGSAP } from "@gsap/react";
+import myimage from "../../assets/myimage.jpg";
+
 import gsap from "gsap";
 let About = () => {
   let { mode } = useContext(Context);
@@ -28,11 +30,7 @@ let About = () => {
             About me
           </p>
           <div className="about-pera">
-            <img
-              src="https://media.licdn.com/dms/image/v2/D4D03AQE-4chE9AUJSg/profile-displayphoto-shrink_800_800/B4DZZCmfrwGwAc-/0/1744874113781?e=1753315200&v=beta&t=nmE_bnRCgltXMBO7VP06Ij0fEC0D-iQzXDM8fXsmSjI"
-              className="picture"
-              alt=""
-            />
+            <img src={myimage} className="picture" alt="" />
             <div className="pera-about">
               <div className="pera">
                 <p> I am an Frontend Developer</p>
@@ -129,11 +127,7 @@ let About = () => {
             About me
           </p>
           <div className="about-pera">
-            <img
-              src="https://media.licdn.com/dms/image/v2/D4D03AQE-4chE9AUJSg/profile-displayphoto-shrink_800_800/B4DZZCmfrwGwAc-/0/1744874113781?e=1753315200&v=beta&t=nmE_bnRCgltXMBO7VP06Ij0fEC0D-iQzXDM8fXsmSjI"
-              className="picture"
-              alt=""
-            />
+            <img src={myimage} className="picture" alt="" />
             <div className="pera-about">
               <div className="pera" style={{ color: "black" }}>
                 <p> I am an Frontend Developer</p>
